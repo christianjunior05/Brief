@@ -1,4 +1,24 @@
+<<<<<<< HEAD
 name: [Compress]
 on:
   push: [main]
   echo: "succès"
+=======
+name: first github action
+
+on:
+    push:
+        branches: [ main ]
+
+jobs:
+    build:
+        name: build
+
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v1
+            - name: test
+              run: npm test
+>>>>>>> 06e84874d36bd80477f9ee0e2db7b64af847d6bb

@@ -1,1 +1,4 @@
-name : [Compress]
+name: [Compress]
+on:
+  push: [main]
+  echo: "succès"

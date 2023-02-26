@@ -2,9 +2,12 @@
     "name": "brief",
     "version": "1.0.0",
     "description": "Une application HTML",
-   
+    "main": "index.html",
     "dependencies": {
       "http": "^0.0.1"
+    },
+    "scripts": {
+      "start": "node index.html"
     }
   }
   

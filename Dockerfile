@@ -7,8 +7,6 @@ WORKDIR /app
 # Copiez le fichier package.json dans le conteneur
 COPY package.json .
 
-# Installez les dépendances
-RUN npm install
 
 # Copiez tous les fichiers de l'application dans le conteneur
 COPY . .
